@@ -28,10 +28,8 @@ from google.cloud.aiplatform_v1 import types as gca_types
 from vertexai import generative_models
 
 from google.rpc import status_pb2
-
-
 _LOGGER = aiplatform_base.Logger(__name__)
-
+Anusorn Chuenchai
 _GEMINI_MODEL_PATTERN = r"publishers/google/models/gemini"
 _LLAMA_MODEL_PATTERN = r"publishers/meta/models/llama"
 _CLAUDE_MODEL_PATTERN = r"publishers/anthropic/models/claude"
